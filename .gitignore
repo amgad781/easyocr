@@ -1,0 +1,8 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+easyocr_models/
+.streamlit/secrets.toml
+.env
+*.txt.bak

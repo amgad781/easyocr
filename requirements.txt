@@ -1,0 +1,10 @@
+# CPU-only PyTorch (the default Linux wheel is ~2 GB with CUDA and will fail/crash on free hosting)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+
+easyocr>=1.7.2,<1.8
+opencv-python-headless>=4.8,<5
+numpy>=1.26,<2.3
+pillow>=10
+streamlit>=1.41,<1.50
